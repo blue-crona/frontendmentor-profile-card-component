@@ -1,0 +1,52 @@
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .profile-card {
+    background-color: var(--off-white);
+    border-radius: 1em;
+  }
+   
+  .profile-card__header {
+    border-radius: 1em 1em 0 0;
+  }
+
+  .profile-card__bio {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 4.5rem 1.75rem;
+  }
+
+  .profile-card__image {
+    position: absolute;
+    border-radius: 50%;
+    border: .375rem solid var(--off-white);
+    top: -3.5rem;
+  }
+  
+  .profile-card__name {
+    font-weight: var(--font-bold);
+    color: var(--very-dark-desaturated-blue);
+  }
+
+  .profile-card__location{
+    color: var(--dark-grayish-blue);
+    padding-top: .5em;
+    font-size: .8rem;
+  }
+
+  .profile-card__age {
+    font-weight: var(--font-regular);
+    color: var(--dark-grayish-blue);
+    margin-left: .2em;
+  }
+
+  .profile-card__statistics {
+    border-top: 1px solid var(--darkgray);
+  }
