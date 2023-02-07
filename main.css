@@ -41,6 +41,7 @@ body {
   background-color: var(--dark-cyan);
 }
 
+h1,
 dt {
   font-size: 18px;
   font-family: var(--font);
