@@ -41,14 +41,14 @@ body {
   background-color: var(--dark-cyan);
 }
 
-h1 {
+dt {
   font-size: 18px;
   font-family: var(--font);
   font-weight: var(--font-bold);
   color: var(--very-dark-desaturated-blue);
 }
 
-h2 {
+dd {
   font-size: 0.6rem;
   font-family: var(--font);
   font-weight: var(--font-regular);
