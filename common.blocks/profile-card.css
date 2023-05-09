@@ -27,7 +27,8 @@
   position: absolute;
   border-radius: 50%;
   border: 0.35rem solid var(--off-white);
-  top: -3.5rem;
+  top: 0;
+  transform: translateY(-50%);
 }
 
 .profile-card__name {
